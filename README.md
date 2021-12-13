@@ -12,6 +12,7 @@ Se utilizo varias funciones para el realizar el registro e inicio de sesión.
 Para la recuperación de contraseña creamos una pagina llamada forgot-password y en la codificación del forgot-password.page.html agregamos elementos como input de tipo email y un botón para llamar a un método llamado onReset.
 
 ![image](https://user-images.githubusercontent.com/66235614/145815833-fe1ef2c5-df73-491b-bad2-a7d9bd34ec29.png)
+
 Verificamos las rutas en app.routing.module.ts
 ![image](https://user-images.githubusercontent.com/66235614/145815861-b47a33d1-b0ce-4f7c-89ec-e9d4bcaf94c4.png)
 
