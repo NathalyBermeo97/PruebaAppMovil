@@ -7,7 +7,9 @@ Se crea un proyecto en Firebase , esta plataforma permite la creación de mejore
 Se utilizo varias funciones para el realizar el registro e inicio de sesión.
 
 ![image](https://user-images.githubusercontent.com/66235614/145815724-fc57fd8d-dc00-41ac-94cc-fed1a4c4f7f2.png)
+
 ![image](https://user-images.githubusercontent.com/66235614/145815739-e518852a-a01f-408a-9d98-6a44537df000.png)
+
 ![image](https://user-images.githubusercontent.com/66235614/145816804-9a7c244d-c798-42e2-8592-e323e825900f.png)
 
 # Recuperación de contraseña 
