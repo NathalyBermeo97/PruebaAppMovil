@@ -32,13 +32,18 @@ En la parte de forgot-password.page.ts  creamos una función asíncrona  que per
 
 ![image](https://user-images.githubusercontent.com/66235614/145816181-d429c097-d290-4548-9407-248b0b943293.png)
 
-Mensaje de alerta que verifica el envío de mensaje de recuperación de contraseña al correo ingresado.
 
 ![image](https://user-images.githubusercontent.com/66235614/145817142-055df697-7071-4de9-a2bd-8ac57bc43ec3.png)
 
+Mensaje de alerta que verifica el envío de mensaje de recuperación de contraseña al correo ingresado.
+
 ![image](https://user-images.githubusercontent.com/66235614/145817172-3ed63ec2-ff32-4578-bdef-9bf457f2195a.png)
 
+Mensaje de recuperación de contraseña.
+
 ![image](https://user-images.githubusercontent.com/66235614/145817247-14e24494-1411-4d36-ba00-66e82b04d3dd.png)
+
+Modal que permite el cambio de contraseña
 
 ![image](https://user-images.githubusercontent.com/66235614/145817376-b28a0e94-6649-4104-a753-0217232a759a.png)
 
