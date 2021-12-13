@@ -32,6 +32,14 @@ export class ChatService {
     });
   }
 
+  async resetPassword(email:string):Promise<void>{
+    try{
+      return this.afAuth.sendPasswordResetEmail(email);
+    }catch
+      (error){console.log(error)}
+    
+  }
+
   async signUp({ email, password }) {
     const credential = await this.afAuth.createUserWithEmailAndPassword(
       email,

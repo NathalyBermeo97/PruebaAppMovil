@@ -20,6 +20,13 @@ const routes: Routes = [
     loadChildren: () => import('./pages/chat/chat.module').then( m => m.ChatPageModule),
     ...canActivate(redirectUnauthorizedToLogin)
   },
+  {
+    path: 'forgot-password',
+    loadChildren: () => import('./pages/forgot-password/forgot-password.module').then( m => m.ForgotPasswordPageModule)
+  },
+
+  
+ 
 ];
 
 @NgModule({
