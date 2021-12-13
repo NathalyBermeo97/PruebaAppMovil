@@ -14,6 +14,7 @@ Para la recuperación de contraseña creamos una pagina llamada forgot-password 
 ![image](https://user-images.githubusercontent.com/66235614/145815833-fe1ef2c5-df73-491b-bad2-a7d9bd34ec29.png)
 
 Verificamos las rutas en app.routing.module.ts
+
 ![image](https://user-images.githubusercontent.com/66235614/145815861-b47a33d1-b0ce-4f7c-89ec-e9d4bcaf94c4.png)
 
 Creamos un método asíncrono en chat.service.ts para la recuperación de contraseña, utilizamos un try catch para manejar los errores y para el envio de mensaje para recuperar la contraseña.
