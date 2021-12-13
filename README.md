@@ -37,5 +37,39 @@ En la parte de forgot-password.page.ts  creamos una función asíncrona  que per
 
 ![image](https://user-images.githubusercontent.com/66235614/145817376-b28a0e94-6649-4104-a753-0217232a759a.png)
 
+# Chat
+Para el chat vamos a empezar creando en el servicio de chat una interfaz que se llamara message la cual nos servirá, para dar forma a nuestros mensajes y poder tratarlos como un tipo.
+
+![image](https://user-images.githubusercontent.com/66235614/145817771-8af28506-17a4-4fc9-a375-1286f4ce5cbf.png)
+
+De la siguiente manera, donde podemos dar la estructura de nuestros mensajes con los siguientes campos que se muestran en la imagen.
+En el servicio de chat declaramos funciones más para el funcionamiento del chat, addChartMessage.
+Aquí en esta función vamos a dar un return donde tomaremos el método angularfirestore para obtener la colección de mensajes y añadiremos los siguientes campos que ya definimos en nuestra interfaz.
+Msg, el usuario, y la fecha de creación.
+
+![image](https://user-images.githubusercontent.com/66235614/145817875-d45ae30f-324a-42ba-8047-583c49b2502f.png)
+
+Luego después crearemos una nueva función para obtener los mensajes del chat, aquí declaramos un arreglo vacío, que nos servirá para guardar la colección de usuarios que irán generando los chats, todo eso nos retorna un get user, con el atributo pipe, que nos trasforma el contenido que queremos mostrar, también aquí usamos la función switchmap, el mismo que nos devuelve un observable de salida, el cual ya definiremos los valores que necesitamos.
+
+![image](https://user-images.githubusercontent.com/66235614/145818011-397f2e80-e5f6-44db-9e37-b5d314b78244.png)
+
+Así mismo realizaremos un mapeo de nuestros mensajes, que van a ser contenidos con los valores, del nombre de usuario  y el mensaje.
+
+Luego creamos la función getUser() y getUserForMsg(), la función get usuaer nos permite acceder a la collecion de usuarios, y tomar los cambios del usuario, por medio de su id, todo esto va declarado como un observable.
+Así mismo la siguiente función que recibirá dos parámetros, el parámetro msgFromId que será un parámetro vacío, y el user, en tipo arreglo, esto nos servirá para obtener el usuario que envía el mensaje siendo que este sea correcto, nos devuelve el valor del email del usuario.
+
+![image](https://user-images.githubusercontent.com/66235614/145818129-24d6feb3-65d9-4a53-90ae-d1609c42c8d5.png)
+
+En el archivo image-zize.pip, tendremos las funciones pipe, y trasform que nos sirven para dar formato a nuestros archivos, con respecto a sus unidades de medida dando en un valor redondeado al tamaño de los archivos, el cual será devuelto en una nueva unidad con un valor de dos decimales.
+
+![image](https://user-images.githubusercontent.com/66235614/145818186-0ec1ae34-45e6-44da-8083-ce5b0000d175.png)
+
+En el archivo chat.ts, tenemos la funcionalidad del chat, así mismo como él envió de archivos, es así que para eso declaramos la función sendMessage el cual nos permite acceder al servicio de chat para la funcionalidad de addChatMessage que nos permite crear el nuevo mensaje explicado anteriormente.
+
+![image](https://user-images.githubusercontent.com/66235614/145818269-adc56dac-0a77-48f0-8341-b6bfcdec61f4.png)
+
+La función uploadimage es la encargada de subir capturar las images y subirlas a la base, este viene con una validación de archivos, donde solo podrán ser archivos, no carpetas porque nos dará un error de archivo no soportado aquí definimos la ruta donde va a ser guardada nuestra imagen las herramientas de carga, y algunos detalles como la barra de progreso. Esta función nos devuelve el observable, de la imagen el cual luego daremos el formato correspondiente al mismo con el que queremos que este se presente.
+
+![image](https://user-images.githubusercontent.com/66235614/145818327-8a33f5bb-e787-4bae-8818-d15fd6a0dda4.png)
 
 
