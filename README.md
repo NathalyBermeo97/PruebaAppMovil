@@ -76,7 +76,7 @@ La función uploadimage es la encargada de subir capturar las images y subirlas 
 ![image](https://user-images.githubusercontent.com/66235614/145818327-8a33f5bb-e787-4bae-8818-d15fd6a0dda4.png)
 
 # Funcionalidad Chat
-![image](https://user-images.githubusercontent.com/66235614/145825293-8da4c02b-6750-4bfe-a497-3237a83918fa.png)
+![image](https://user-images.githubusercontent.com/66235614/145831296-543fe492-1926-4b9d-a90e-1025fbec8c5e.png)
 
 # Rutas imagenes Storage
 
