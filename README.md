@@ -82,4 +82,6 @@ La función uploadimage es la encargada de subir capturar las images y subirlas 
 
 ![image](https://user-images.githubusercontent.com/66235614/145825764-d942398d-4ad9-4fa2-8366-978a51202425.png)
 
-
+Link de YouTube: https://www.youtube.com/watch?v=-vWAdhL2e9Q
+Link de Facebook:https://fb.watch/9T4e8tbqjE/
+Link de Twitter: https://twitter.com/Christi32172157/status/1470397831445942277?t=3LMStCgVtqKlH3biBvBZmg&s=19
